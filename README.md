@@ -18,3 +18,32 @@ so we came up with this website idea; which is represent the kids artistic work 
 ##### Home Page
 
 ![Home](img/wireframe/home.jpeg)
+
+##### Store Page
+
+![store](img/wireframe/store.jpeg)
+
+
+##### Join us Page
+
+![store](img/wireframe/join-us.jpeg)
+
+##### Feed back Page
+
+![store](img/wireframe/feed-back.jpeg)
+
+##### About us Page
+
+![store](img/wireframe/about-us.jpeg)
+
+##### category Page
+
+![store](img/wireframe/category.jpeg)
+
+##### Cart Page
+
+![store](img/wireframe/cart.jpeg)
+
+##### bill information Page
+
+![store](img/wireframe/bill-information.jpeg)
