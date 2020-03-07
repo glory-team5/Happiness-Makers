@@ -13,7 +13,7 @@ our project's problem domin is to target poor homeless and talented kids all ove
 so we came up with this website idea; which is represent the kids artistic work to the world and any one can buy any of theproducts that shown in the website. at the end all the sales will go for this talented kids to benfit from their work.
 
 
-#### Project description
+#### Project Wierframe
 
 ##### Home Page
 
