@@ -26,24 +26,24 @@ so we came up with this website idea; which is represent the kids artistic work 
 
 ##### Join us Page
 
-![store](img/wireframe/join-us.jpeg)
+![join-us](img/wireframe/join-us.jpeg)
 
 ##### Feed back Page
 
-![store](img/wireframe/feed-back.jpeg)
+![feed-back](img/wireframe/feed-back.jpeg)
 
 ##### About us Page
 
-![store](img/wireframe/about-us.jpeg)
+![about-us](img/wireframe/about-us.jpeg)
 
 ##### category Page
 
-![store](img/wireframe/category.jpeg)
+![category](img/wireframe/category.jpeg)
 
 ##### Cart Page
 
-![store](img/wireframe/cart.jpeg)
+![cart](img/wireframe/cart.jpeg)
 
 ##### bill information Page
 
-![store](img/wireframe/bill-information.jpeg)
+![bill](img/wireframe/bill-informatin.jpeg)
