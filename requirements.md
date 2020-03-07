@@ -1,5 +1,5 @@
 * What is the vision of this product?
-- Our products are talented and poor children who need our support by buying what they are making, but our products are really worth buying because we chose the best from the children’s works.
+- Our products are talented and poor children who need our support by buying what they are making, and supporting talented children in many fields.
 
 * What pain point does this project solve?
 - Our project provides financial support to poor and talented children as well as develops their talents through our support for them by purchasing their businesses, this motivates them to do more and strive to become better and enhance their self-confidence, also, you can donate through us to children who are distinguished in terms of education, sports, or music.
