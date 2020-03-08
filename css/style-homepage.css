@@ -3,20 +3,23 @@
    
     width: 80%;
     margin:170px auto;
+    border-radius: 3%;
     
 }
 #swapImage{
+    border-radius: 5% 0% 0% 5%;
     height: 600px;
     float: left;
     width: 60%;
    transition: all 0.7 ease-in-out;
-   animation: swap 5s ease-in-out infinite;
+   animation: swap 10s ease-in-out infinite;
 }
 #Brief{
     background-color: orchid;
     float: right;
     height: 600px;
     width: 40%;
+    border-radius:0% 5% 5% 0%;;
 }
 #Brief p{
     padding: 30px;
@@ -27,16 +30,56 @@
 @keyframes swap{
     0%,100%{
         background-image: url('../img/homepage/swap1.png');
-    
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-color: khaki;
     }
     25%{
         background-image: url('../img/homepage/awap4.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     50%{
         background-image: url('../img/homepage/swap2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     75%{
         background-image: url('../img/homepage/swap3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
+}
+
+#categoryContainer{
+    min-height: 600px;
+   
+    width: 80%;
+    margin:170px auto;
+    border-radius: 3%;
+    text-align: center;
+    
+}
+
+#categoryContainer .Catogies{
+    
+    width: 24%;
+    display: inline-block;
+    transition: all .5s ease-in-out;
+}
+
+
+#categoryContainer .Catogies img{
+    width: 300px;
+    transition: all .5s ease-in-out;
+}
+#categoryContainer .Catogies img:hover{
+    transform: scale(1.3);
+    transform: translateY(-20px);
+    
+
+}
+#categoryContainer .Catogies h3{
+    margin-top: 15px;
 }
