@@ -1,0 +1,17 @@
+main section img{
+width: 200px;
+height: 300px;
+}
+
+#first{
+    display: inline;
+
+}
+
+#second{
+float: left;
+}
+
+#third{
+    float: left;
+}
