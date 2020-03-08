@@ -6,24 +6,46 @@ header{
     background-color: brown;
     margin: -20px auto;
     display: block;
-    
-    
-}
-header div{
     background-color: coral;
-    padding: 86px 0;
+
+    
 }
-header div img{
+#leftimg{
+    width: 30%;
+    float: left;
+    height: 460px;
+}
+header #centerimg{
+    padding: 86px 0;
+    width: 40%;
+    float: left;
+
+}
+#rightimg{
+    height: 460px;
+    float: right;
+    width: 30%;
+}
+#rightimg img{
+    height: 460px;
+    width: 225px;
+    float: right;
+}
+#leftimg img{
+    height: 460px;
+    width: 225px;
+}
+header #centerimg img{
     display: block;
     margin: 20px auto;
     width: 200px;
     transition: all .5s ease-in-out;
 }
-header div img:hover{
+header #centerimg img:hover{
 transform: scale(1.2);
 }
 
-header div h1{
+header #centerimg h1{
     font-size: 40px;
     color:red;
     text-align: center;
@@ -32,10 +54,14 @@ margin: 0px auto;
 }
 nav{
     background-color: salmon;
+    clear: both;
+}
+nav ul{
+    text-align: center;
 }
 nav ul li{
     display: inline-block;
-    margin: 0 6%;
+    margin: 0 4%;
     padding: 20px;
 }
 nav ul li:hover{
@@ -53,8 +79,8 @@ main{
 
 footer{
     min-height: 200px;
-    background-color: maroon;
-   padding: 5px;
+    background-color: rgb(206, 202, 218);
+   padding: 0px;
     width: 100%;
 }
 footer ul{
@@ -63,17 +89,19 @@ footer ul{
 }
 footer ul li{
     display: inline-block;
-    margin: 40px 6%;
+    
     padding: 20px;
     
 }
 footer ul li a{
-    background-color: rgb(199, 22, 22);
     border-radius: 10%;
     padding: 20px 26px;
     font-weight: 800;
     font-size: 35px;
     text-decoration: none;
+}
+footer ul li a img{
+    width: 80px;
 }
 footer ul li a:hover{
     opacity: .6;
@@ -81,7 +109,7 @@ footer ul li a:hover{
 footer p{
     text-align: center;
     padding: 15px;
-    font-size: 25px;
+    font-size: 16px;
     
     
 }
