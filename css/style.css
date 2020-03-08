@@ -1,0 +1,90 @@
+/* body{
+    overflow: hidden;
+} */
+header{
+    min-height: 200px;
+    background-color: brown;
+    margin: -20px auto;
+    display: block;
+    
+    
+}
+header div{
+    background-color: coral;
+    padding: 86px 0;
+}
+header div img{
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    transition: all .5s ease-in-out;
+}
+header div img:hover{
+transform: scale(1.2);
+}
+
+header div h1{
+    font-size: 40px;
+    color:red;
+    text-align: center;
+padding: 10px;
+margin: 0px auto;
+}
+nav{
+    background-color: salmon;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 6%;
+    padding: 20px;
+}
+nav ul li:hover{
+    background-color: limegreen;
+}
+nav ul li a{
+    font-size:30px;
+    text-decoration: none;
+ 
+}
+main{
+    display: block;
+ margin: 30px auto;
+}
+
+footer{
+    min-height: 200px;
+    background-color: maroon;
+   padding: 5px;
+    width: 100%;
+}
+footer ul{
+    margin: 0px auto;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    margin: 40px 6%;
+    padding: 20px;
+    
+}
+footer ul li a{
+    background-color: rgb(199, 22, 22);
+    border-radius: 10%;
+    padding: 20px 26px;
+    font-weight: 800;
+    font-size: 35px;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    opacity: .6;
+}
+footer p{
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    
+    
+}
+img{
+    width: 200px;
+}
