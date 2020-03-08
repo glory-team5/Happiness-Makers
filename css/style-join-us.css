@@ -1,0 +1,32 @@
+#joinus {
+    width: 40%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+#joinus legend{
+    border: 3px solid rgb(221, 26, 26);
+    padding: 5px;
+
+}
+#joinus fieldset{
+    margin: 0px auto;
+    font-size: 20px;
+    padding: 30px;
+    border: 3px solid rgb(221, 26, 26);
+}
+#joinus fieldset label{
+    margin-left: 25px;
+}
+label,input{
+    display: block;
+    margin: 6px;
+}
+input{
+    width: 455px;
+    height: 25px;
+    
+}
+textarea{
+    margin-left: 6px;
+    width: 455px;
+}
