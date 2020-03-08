@@ -1,17 +1,31 @@
-main section img{
-width: 200px;
-height: 300px;
+#container{
+    margin: 0px auto;
+    width: 80%;
+    overflow: hidden;
 }
-
-#first{
-    display: inline;
-
-}
-
-#second{
-float: left;
-}
-
-#third{
+#container section{
+    width: 50%;
     float: left;
+    margin: 100px auto;
+    text-align: center;
+    line-height: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+   
 }
+#container section img{
+    width: 300px;
+    border-radius: 5%;
+}
+#container section li{
+    width: 270px;
+    text-align: center;
+    margin: 0px auto;
+    
+
+}main{
+    background-color: rgb(111, 113, 117); 
+    margin: 0px;
+}
+
+
