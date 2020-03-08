@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+ #row1 {
+    float: left;
+}
+main #row3{ 
+    clear: both;
+    float: left;
+}
+main #row4{
+    clear: both;
+    float: left;
+}
+
+ #row6{
+    clear: both;
+    float: left;
+}
+ #row7 main{
+    float: left;
+}
+ 
+article{
+    margin: auto;
+    text-align: center;   
+    width: 65%;
+}
+section{
+    padding: 10% 0% 10% 0%;
+    
+}
+
+img{
+    height: 300px;
+    width: 400px;
+}
+
+.font{
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+
+}
