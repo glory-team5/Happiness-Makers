@@ -2,9 +2,11 @@
     min-height: 600px;
    
     width: 80%;
-    margin:270px auto;
+    margin:100px auto;
+    margin-top: 200px;
     border-radius: 3%;
-    
+    box-shadow: 10px 10px 10px 10px #7E52A0;
+
 }
 #swapImage{
     border-radius: 5% 0% 0% 5%;
@@ -13,9 +15,10 @@
     width: 60%;
    transition: all 0.7 ease-in-out;
    animation: swap 10s ease-in-out infinite;
+
 }
 #Brief{
-    background-color: #baf1a1;
+    background-color: #D295BF;
     float: right;
     height: 600px;
     width: 40%;
@@ -28,7 +31,7 @@
     line-height: 30px;
     font-weight: 550;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #552244;
+    color: #29274C;
     /* font-weight: bold; */
 }
 @keyframes swap{
@@ -57,14 +60,13 @@
 }
 
 #categoryContainer{
-    min-height: 600px;
+    min-height: 330px;
    
     width: 80%;
     margin:0px auto;
     border-radius: 3%;
     text-align: center;
-    
-    
+
 }
 
 #categoryContainer .Catogies{
@@ -103,5 +105,8 @@
     width: 300px;
     position: relative;
     top: 50px;
-
+}
+a{
+    color: #29274C;
+    text-decoration: none;
 }
