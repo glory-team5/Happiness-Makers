@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
  #row1 {
     float: left;
 }
-main #row3{ 
+ #row3{ 
     clear: both;
     float: left;
 }
-main #row4{
+ #row4{
     clear: both;
     float: left;
 }
@@ -23,20 +23,29 @@ main #row4{
 article{
     margin: auto;
     text-align: center;   
-    width: 85%;
+    width: 95%;
 }
 section{
-    padding: 10% 10% 10% 10%;
-    
+    padding: 5% 10% 5% 10%;
+    display: grid;
 }
 
 img{
     height: 300px;
     width: 400px;
+    border: solid 3px orange;
+    border-radius: 10%;
 }
 
 .font{
-    font-size: 20px;
-    font-family: 'Courgette', cursive;
-
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    border: solid 3px orange;
+}
+section p{
+    margin-top: 30px;
+}
+button{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
 }
