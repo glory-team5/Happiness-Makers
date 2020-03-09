@@ -1,20 +1,20 @@
-#feedback {
+#bill {
     width: 40%;
     margin: 80px auto;
     overflow: hidden;
 }
-#feedback legend{
+#bill legend{
     border: 3px solid #baf1a1;
     padding: 5px;
 
 }
-#feedback fieldset{
+#bill fieldset{
     margin: 0px auto;
     font-size: 20px;
     padding: 30px;
     border: 3px solid #9de3d0;
 }
-#feedback fieldset label{
+#bill fieldset label{
     margin-left: 25px;
 }
 label,input{
