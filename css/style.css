@@ -2,61 +2,42 @@
     overflow: hidden;
 } */
 header{
-    min-height: 200px;
-    background-color:#f688bb;
-    margin: -20px auto;
+    height: 400px;
+    /* margin: -20px auto; */
     display: block;
-    /* background-color: coral; */
-
-    
+   
 }
-#leftimg{
-    width: 30%;
-    float: left;
-    height: 460px;
-}
-header #centerimg{
-    padding: 86px 0;
-    width: 40%;
-    float: left;
-
-}
-#rightimg{
-    height: 460px;
-    float: right;
-    width: 30%;
-}
-#rightimg img{
-    height: 460px;
-    width: 225px;
-    float: right;
-}
-#leftimg img{
-    height: 460px;
-    width: 225px;
-}
-header #centerimg img{
-    display: block;
-    margin: 20px auto;
-    width: 200px;
-    transition: all .5s ease-in-out;
-}
-header #centerimg img:hover{
-transform: scale(1.2);
+#titleheader{
+    background-image: url('https://wallpaperplay.com/walls/full/2/c/4/86927.jpg');
+    background-position-y: 70%;
+    background-position-x: 15%;
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
 }
 
-header #centerimg h1{
+header h1{
     font-size: 40px;
-    color:#552244;
+    color:#29274C;
     text-align: center;
-padding: 10px;
-margin: 0px auto;
+/* padding-top: 7%; */
+/* padding-right: 30%; */
+/* margin: 0px auto; */
 font-weight: bold;
-font-size: 40px;
+font-size: 43px;
+    padding-top: 8%;
+    padding-right: 31%;
+
 }
+/* h1 p{
+    background-color: #7E52A0;
+    opacity: .3;
+    padding: 0px 0px 0px 0px;
+} */
 nav{
-    background-color: #9de3d0;
-    clear: both;
+    background-color: #D295BF;
+    /* clear: both; */
+   
 }
 nav ul{
     text-align: center;
@@ -67,12 +48,12 @@ nav ul li{
     padding: 20px;
 }
 nav ul li:hover{
-    background-color:#ffa372;
+    background-color:#7E52A0;
 }
 nav ul li a{
     font-size:30px;
     text-decoration: none;
-    color: #552244;;
+    color: #29274C;;
     font-weight: bold;
  
 }
@@ -82,8 +63,8 @@ main{
 }
 
 footer{
-    min-height: 200px;
-    background-color:#f688bb;
+    min-height: 150px;
+    background-color:#D295BF;
    padding: 0px;
     width: 100%;
 }
@@ -114,14 +95,12 @@ footer p{
     text-align: center;
     padding: 15px;
     font-size: 16px;
-    color: #552244;
+    color: #29274C;
     font-weight: bold;
-    
-    
 }
 img{
     width: 200px;
 }
 body{
-    background-color: #e8f9e9;
+    background-color: #E6BCCD;
 }
