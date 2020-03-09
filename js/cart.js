@@ -1,0 +1,32 @@
+
+var conResult = document.getElementById('containerOfResult');
+
+function runderResult (){
+
+    for (var j = 0; j < chosenProduct.length; j++) {
+        var product = document.createElement('div');
+        conResult.appendChild(product);
+        
+        var image = document.createElement('img');
+        product.appendChild(image);
+        image.setAttribute('src', chosenProduct[j].imagePath);
+        image.setAttribute('alt', chosenProduct[j].name);
+        image.setAttribute('id', chosenProduct[j].name);
+        var kidsName = document.createElement('p');
+        product.appendChild(kidsName);
+        kidsName.textContent =`Done by: ${chosenProduct[j].name}.`;
+        var productPrice = document.createElement('p');
+        product.appendChild(productPrice);
+        productPrice.textContent =`Price: ${chosenProduct[j].price}`;
+
+    }
+}
+
+function getResult (){
+    var getProduct = localStorage.getItem('localchosenProducts');
+    if(getProduct){
+        chosenProduct = JSON.parse(getProduct);
+        runderResult();
+    }
+}
+getResult();
