@@ -30,7 +30,7 @@ section{
     display: grid;
 }
 
-img{
+section img{
     height: 300px;
     width: 400px;
     border: solid 3px orange;
@@ -38,7 +38,7 @@ img{
 }
 
 .font{
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Lato', sans-serif;
     border: solid 3px orange;
 }
@@ -46,6 +46,6 @@ section p{
     margin-top: 30px;
 }
 button{
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Lato', sans-serif;
 }
