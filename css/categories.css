@@ -19,6 +19,7 @@
 }
  
 article{
+    padding-top: 5%;
     margin: auto;
     text-align: center;   
     width: 95%;
@@ -30,13 +31,14 @@ section{
 section img{
     height: 300px;
     width: 400px;
-    border: solid 3px #9de3d0;
+    border: solid 3px #7E52A0;
     border-radius: 10%;
 }
 .font{
     font-size: 30px;
     font-family: 'Lato', sans-serif;
-    border: solid 3px #9de3d0;
+    box-shadow: 5px 5px 5px 5px #7E52A0;
+    color: #29274C;
 }
 section p{
     margin-top: 30px;
@@ -44,4 +46,17 @@ section p{
 button{
     font-size: 30px;
     font-family: 'Lato', sans-serif;
+    color: #29274C;
+    box-shadow: 10px 10px 10px 10px #7E52A0;
+}
+button:hover{
+    transition-property: all;
+    transition-duration: 100ms;
+    background-color: #D295BF;
+}
+button:active{
+    transition-property: all;
+    transition-duration: 100ms;
+    background-color: #7E52A0;
+    opacity: 0.3;
 }
