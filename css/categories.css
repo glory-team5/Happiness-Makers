@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-
  #row1 {
     float: left;
 }
@@ -11,7 +10,6 @@
     clear: both;
     float: left;
 }
-
  #row6{
     clear: both;
     float: left;
@@ -29,27 +27,21 @@ section{
     padding: 5% 10% 5% 10%;
     display: grid;
 }
-
-img{
+section img{
     height: 300px;
     width: 400px;
-    border: solid 5px #9de3d0;
+    border: solid 3px #9de3d0;
     border-radius: 10%;
 }
-
 .font{
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Lato', sans-serif;
     border: solid 3px #9de3d0;
-    color: #552244 ;
-    font-weight:500;
-
 }
 section p{
     margin-top: 30px;
 }
 button{
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Lato', sans-serif;
-    color: #552244;
 }
