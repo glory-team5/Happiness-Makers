@@ -24,8 +24,14 @@
     
 
 }main{
-    background-color: #E6BCCD; 
-    margin: 0px;
+    margin-top: 70px;
 }
+
+nav{
+    background-color: #D295BF;
+    /* clear: both; */
+   
+}
+
 
 

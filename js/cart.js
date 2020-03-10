@@ -18,13 +18,13 @@ function runderResult (){
         kidsName.textContent =`Done by: ${chosenProduct[j].name}.`;
         var productPrice = document.createElement('p');
         product.appendChild(productPrice);
-        productPrice.textContent =`Price: ${chosenProduct[j].price}`;
+        productPrice.textContent =`Price: ${chosenProduct[j].price} $`;
 
 
     }
     var totalOfProducts = document.createElement('span');
     conResult.appendChild(totalOfProducts);
-    totalOfProducts.textContent =`Total: ${total}`;
+    totalOfProducts.textContent =`Total: ${total} $`;
 
 
 }

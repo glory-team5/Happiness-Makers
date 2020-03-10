@@ -60,6 +60,8 @@ nav ul li a{
 main{
     display: block;
  margin: 30px auto;
+ background-color: rgb(255, 219, 243);
+
 }
 
 footer{
@@ -102,5 +104,6 @@ img{
     width: 200px;
 }
 body{
-    background-color: #E6BCCD;
+    background-color: rgb(255, 219, 243);
+
 }
