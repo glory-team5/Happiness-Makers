@@ -2,22 +2,21 @@
     overflow: hidden;
 } */
 body{
-    background-color: #E6BCCD;
+    background-color: rgb(255, 219, 243);
 }
 header{
     height: 400px;
     /* margin: -20px auto; */
     display: block;
-   
 }
 #titleheader{
-    background-image: url('https://wallpaperplay.com/walls/full/2/c/4/86927.jpg');
+    background-image: url('../img/important-img/home.jpg');
     background-position-y: 70%;
     background-position-x: 15%;
     background-size: cover;
     height: 400px;
     background-repeat: no-repeat;
-    opacity: .8;
+    opacity: .7;
 }
 
 header h1{
@@ -33,8 +32,8 @@ nav{
     background-color: rgb(65, 22, 50);
     /* overflow: hidden;
     width: 100%;
-    position: fixed;
-    top: 0; */
+    position: fixed; */
+    /* top: 0; */
 }
 nav ul{
     text-align: center;
@@ -42,18 +41,26 @@ nav ul{
 nav ul li:hover{
     background-color:#7E52A0;
 }
+
 nav ul li a{
     font-size:30px;
     text-decoration: none;
     color: #E6BCCD;
     font-weight: bold;
- 
+}
+nav ul li a:hover{
+    color: #29274C;
 }
 nav ul .dropdown{
     display: inline-block;
     margin: 0 2%;
     padding: 20px;
     vertical-align: top;
+    border: 0.3em gold;
+    border-radius: 0.5em;
+}
+nav ul .dropdown:hover{
+    background-color: gold;
 }
 nav ul .dropdown a{
     font-size:30px;
@@ -61,9 +68,7 @@ nav ul .dropdown a{
     color: #E6BCCD;
     font-weight: bold;
 }
-nav ul.dropdown:hover{
-    background-color:#7E52A0;
-}
+
 /* ///////////////////////////////////////////// */
 nav ul li{
     display: inline-block;
@@ -71,12 +76,9 @@ nav ul li{
     padding: 20px;
     
     /* /////////////////////////////////////////// */
-    --c: gold;
-    color: var(--c);
-    border: 0.3em var(--c);
+    color: gold;
+    border: 0.3em gold;
     border-radius: 0.5em;
-    font-weight: bold;
-    text-align: center;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -87,7 +89,7 @@ nav ul li span {
     position: absolute;
     width: 35%;
     height: 100%;
-    background-color: var(--c);
+    background-color: gold;
     transform: translateY(150%);
     border-radius: 50%;
     left: calc((var(--n) - 1) * 25%);
@@ -118,7 +120,7 @@ nav ul li span:nth-child(4) {
 }
 /* ////////////////////////////////////////////////////////// */
 
-li.CategorieDropdown {
+.CategorieDropdown:hover {
     display: inline-block;
     color: #29274C;
   } 
@@ -130,14 +132,13 @@ li.CategorieDropdown {
     box-shadow: 5px 10px 10px 5px #7E52A0;
   }
   .dropdownContent a {
-    color: #29274C;
     padding: 12px 16px;
-    text-decoration: none;
     display: block;
     text-align: left;
   }
   .dropdownContent a:hover{
     background-color: #D295BF;
+    color: #29274C;
   }
   
   .dropdown:hover .dropdownContent {
