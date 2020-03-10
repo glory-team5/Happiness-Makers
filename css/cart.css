@@ -1,37 +1,46 @@
 main{
     margin: 0px auto;
     margin-top: 71px ;
-    background-color: #E6BCCD;;
+    background-color: rgb(255, 219, 243);;
 }
 #containerOfResult{
     clear: both;
     width: 80%;
     margin: 0px auto;
     padding-top: 50px;
+    background-color: rgb(255, 219, 243);   
 }
+
 #containerOfResult div{
     float: left;
     width: 50%;
     margin: 20px auto;
     text-align: center;
-    
+    background-color: rgb(197, 180, 191);
+    padding: 2% 0 2%;
 }
+
 footer{
     clear: both;
 }
+
 #containerOfResult div img{
-    height:   300px;
+    height: 300px;
     width: 322px;
+    border: solid 5px rgb(65, 22, 50);
+    border-radius: 3%;
 }
 #containerOfResult div p{
     font-size: 40px;
-
     margin: 5px auto;
-
+    color: rgb(63, 26, 51);
+    
 } 
 #containerOfResult div button{
     font-size: 30px;
     padding: 10px;
+    color: #000;
+    background-color: lavender;
 }
 
 #containerOfResult span{
