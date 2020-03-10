@@ -1,4 +1,123 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.containerOfKids{
+    width: 80%;
+    margin: 135px auto;
+}
+.containerOfKids section{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 10px auto;
+}
+footer{
+    clear: both;
+}
+
+ .font li{
+    padding: 3px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.containerOfKids section img{
+    height: 265px;
+    width: 335px;
+    border: solid 10px rgb(220, 194, 233);
+    border-radius: 3%;
+}
+.containerOfKids section button{
+    font-size: 30px;
+    padding: 5px 10px;
+}
+button{
+    width: 50%;
+    height: 100%;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #29274C;
+    box-shadow: 5px 5px 5px 5px rgb(122, 82, 108);
+	
+}
+button {
+	position: absolute;
+	animation:button 1s infinite;
+}
+button { 
+    position: relative; 
+    width: 119px; 
+    height: 50px;
+    margin: 17px;
+  } 
+  button:before, button:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: 0; 
+    width: 50px; 
+    height: 80px; 
+ 
+    border-radius: 50px 50px 0 0; 
+    transform: rotate(-45deg);  
+    transform-origin: 0 100%;
+    animation:button 1s infinite;
+  } 
+  
+button:after{
+    left: 0; 
+  transform: rotate(45deg); 
+  transform-origin :100% 100%;
+  animation:buttoncolor 1s infinite;
+}
+
+@keyframes button {
+	10% {transform: scale(1.1)}
+}
+
+@keyframes buttoncolor{
+  10% {}
+}
+footer{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
  #row1 {
     float: left;
 }
@@ -99,7 +218,7 @@ button:after{
     transition-duration: 100ms;
     background-color: rgb(122, 82, 108);
 } */
-button:active{
+/* button:active{
     transition-property: all;
     transition-duration: 100ms;
     background-color: #7E52A0;
@@ -108,4 +227,4 @@ button:active{
 body{
     background-color: rgb(255, 219, 243);
 
-}
+} */ 
