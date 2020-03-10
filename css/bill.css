@@ -1,11 +1,13 @@
 #bill {
     width: 40%;
-    margin: 80px auto;
+    margin: 120px auto;
     overflow: hidden;
+    
 }
 #bill legend{
     border: 3px solid #D295BF;
     padding: 5px;
+    
 
 }
 #bill fieldset{
@@ -13,6 +15,7 @@
     font-size: 20px;
     padding: 30px;
     border: 3px solid #7E52A0;
+    background-color: rgb(211, 192, 211) ;
 }
 #bill fieldset label{
     margin-left: 25px;
@@ -26,12 +29,43 @@ input{
     width: 455px;
     height: 25px;
     
+    
 }
 textarea{
     margin-left: 6px;
     width: 455px;
+    
 }
 
 button{
-    color: #29274C;
+    color: rgb(22, 21, 37);
+    background-color: rgba(148, 143, 153, 0.966);
+    padding: 10px;
+    margin:5px;
+    margin-left: 3%;
+    font-weight: 800;
+
 }
+
+#submit{
+    width: 20%;
+    height: 40%;
+    margin-left: 40%;
+    color: rgb(22, 21, 37);
+    background-color: rgba(116, 101, 131, 0.966);
+    padding: 10px;
+    font-weight: 800;
+
+    }
+
+    #reset{
+    width: 20%;
+    height: 40%;
+    margin-left: 40%;
+    color: rgb(22, 21, 37);
+    background-color: rgba(116, 101, 131, 0.966);
+    padding: 10px;
+    font-weight: 800;
+
+    
+    }
