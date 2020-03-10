@@ -1,11 +1,11 @@
 #cart{
     display: block;
-    float: right;
     width: 100px;
-    margin: 5px;
-    margin-right: 21px;
+    margin: 5px auto;
     transition: all .7s ease-in-out;
     animation: cart 3s ease-in-out infinite;
+    clear: both;
+    
 }
 @keyframes cart {
     0%,100%{
@@ -16,40 +16,58 @@
     }
 }
 main{
-    margin-top: 71px ;
-    background-color: #E6BCCD;;
+    margin-top: 170px ;
+    background-color: rgb(255, 219, 243);
 }
+
 #container{
     clear: both;
     width: 80%;
     margin: auto;
-    
+    background-color: rgb(255, 219, 243);   
 }
+
 #container div{
     float: left;
     width: 50%;
     margin: 20px auto;
     text-align: center;
+    background-color: rgb(197, 180, 191);
+    padding: 2% 0 2%;
 }
+
 footer{
     clear: both;
 }
 #container div img{
     height:   300px;
     width: 322px;
+    border: solid 5px rgb(65, 22, 50);
+    border-radius: 3%;
 }
 #container div p{
+    /* background-color: rgb(70, 47, 62); */
+    color: rgb(63, 26, 51);
     font-size: 40px;
-
     margin: 5px auto;
 
 } 
 #container div button{
     font-size: 30px;
     padding: 10px;
-    box-shadow: 12px 10px 7px rgb(226, 70, 8);
+    color: #000;
+    background-color: lavender;
+    /* box-shadow: 5px 5px 5px 5px rgb(122, 82, 108); */
 }
 #container div button:hover{
-    background-color: red;
+  background-color: rgb(122, 82, 108);
+  opacity: 0.8;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
+
+button:hover {opacity: 1}
+
 

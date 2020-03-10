@@ -1,4 +1,5 @@
 main{
+    margin: 0px auto;
     margin-top: 71px ;
     background-color: #E6BCCD;;
 }
@@ -31,11 +32,8 @@ footer{
 #containerOfResult div button{
     font-size: 30px;
     padding: 10px;
-    box-shadow: 12px 10px 7px rgb(226, 70, 8);
 }
-#containerOfResult div button:hover{
-    background-color: red;
-}
+
 #containerOfResult span{
     clear: both;
     display: block;
@@ -50,12 +48,14 @@ a{
 a button{
     display: block;
     clear: both;
-    margin: auto;
+    position: relative;
+    bottom: 15px;
+    margin: 0px auto;
     font-size: 30px;
     padding: 7px;
     
 }
 a button:hover{
-    background-color: yellowgreen;
+    background-color: rgb(122, 82, 108);
 }
 

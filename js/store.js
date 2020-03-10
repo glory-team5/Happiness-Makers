@@ -1,5 +1,5 @@
 var Names = ['Ahmed', 'Baraa', 'Bashar', 'Esraa', 'Majd', 'Osama', 'Tasneem', 'Razan', 'Reham', 'Samer', 'Leen', 'Shihab'];
-var Price = [10, 15, 20, 12, 8, 17, 13, 18, 25, 30, 22, 7];
+var Price = [10, 15, 7, 20, 12, 25, 8, 17, 30, 22, 27, 16];
 var chosenProduct = [];
 total = 0;
 function Items(name, price) {
@@ -31,7 +31,7 @@ function render() {
         kidsName.textContent =`Done by: ${Items.all[j].name}.`;
         var productPrice = document.createElement('p');
         product.appendChild(productPrice);
-        productPrice.textContent =`Price: ${Items.all[j].price}`;
+        productPrice.textContent =`Price: ${Items.all[j].price} $`;
         var addToCart = document.createElement('button');
         product.appendChild(addToCart);
         addToCart.textContent =`Add To Cart`;
