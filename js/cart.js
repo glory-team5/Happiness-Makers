@@ -19,14 +19,24 @@ function runderResult (){
         product.appendChild(productPrice);
         productPrice.textContent =`Price: ${chosenProduct[j].price}`;
 
+
     }
+    var totalOfProducts = document.createElement('span');
+    conResult.appendChild(totalOfProducts);
+    totalOfProducts.textContent =`Total: ${total}`;
+
+
 }
 
 function getResult (){
     var getProduct = localStorage.getItem('localchosenProducts');
-    if(getProduct){
+    var getTotal = localStorage.getItem('total');
+    if(getProduct && getTotal){
         chosenProduct = JSON.parse(getProduct);
+        total = JSON.parse(getTotal);
         runderResult();
     }
+    
+
 }
 getResult();
