@@ -31,32 +31,81 @@ section{
 section img{
     height: 300px;
     width: 400px;
-    border: solid 3px #7E52A0;
-    border-radius: 10%;
+    border: solid 5px rgb(220, 194, 233);
+    border-radius: 3%;
 }
 .font{
     font-size: 30px;
     font-family: 'Lato', sans-serif;
-    box-shadow: 5px 5px 5px 5px #7E52A0;
-    color: #29274C;
+    box-shadow: 5px 5px 5px 5px rgb(122, 82, 108);
+    background-color: rgb(70, 47, 62);
+    color: rgb(179, 179, 179);
 }
 section p{
     margin-top: 30px;
 }
 button{
+    margin-left: 30%;
+    width: 50%;
+    height: 100%;
     font-size: 30px;
     font-family: 'Lato', sans-serif;
     color: #29274C;
-    box-shadow: 10px 10px 10px 10px #7E52A0;
+    box-shadow: 5px 5px 5px 5px rgb(122, 82, 108);
+	
 }
-button:hover{
+button {
+	position: absolute;
+  margin-left: 100px;
+  margin-top: 50px;
+	animation:button 1s infinite;
+}
+button { 
+    position: relative; 
+    width: 150px; 
+    height: 90px;
+  } 
+  button:before, button:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: 0; 
+    width: 50px; 
+    height: 80px; 
+ 
+    border-radius: 50px 50px 0 0; 
+    transform: rotate(-45deg);  
+    transform-origin: 0 100%;
+    animation:button 1s infinite;
+  } 
+  
+button:after{
+    left: 0; 
+  transform: rotate(45deg); 
+  transform-origin :100% 100%;
+  animation:buttoncolor 1s infinite;
+}
+
+@keyframes button {
+	10% {transform: scale(1.1)}
+}
+
+@keyframes buttoncolor{
+  10% {}
+}
+
+/* button:hover{
     transition-property: all;
     transition-duration: 100ms;
-    background-color: #D295BF;
-}
+    background-color: rgb(122, 82, 108);
+} */
 button:active{
     transition-property: all;
     transition-duration: 100ms;
     background-color: #7E52A0;
     opacity: 0.3;
+}
+body{
+    background-color: rgb(255, 219, 243);
+
 }
