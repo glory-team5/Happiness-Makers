@@ -1,0 +1,55 @@
+#cart{
+    display: block;
+    float: right;
+    width: 100px;
+    margin: 5px;
+    margin-right: 21px;
+    transition: all .7s ease-in-out;
+    animation: cart 3s ease-in-out infinite;
+}
+@keyframes cart {
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.8);
+    }
+}
+main{
+    margin-top: 71px ;
+    background-color: #E6BCCD;;
+}
+#container{
+    clear: both;
+    width: 80%;
+    margin: auto;
+    
+}
+#container div{
+    float: left;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+footer{
+    clear: both;
+}
+#container div img{
+    height:   300px;
+    width: 322px;
+}
+#container div p{
+    font-size: 40px;
+
+    margin: 5px auto;
+
+} 
+#container div button{
+    font-size: 30px;
+    padding: 10px;
+    box-shadow: 12px 10px 7px rgb(226, 70, 8);
+}
+#container div button:hover{
+    background-color: red;
+}
+

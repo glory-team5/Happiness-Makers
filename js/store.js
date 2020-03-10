@@ -48,21 +48,13 @@ container.addEventListener('click' , choseProduct);
 
 function choseProduct (event) {
 if (event.target.id !== 'container' ){
-    
-    
-
     for (var x = 0 ; x < Names.length ; x++ ) {
-
         if(event.target.id == `${Items.all[x].name}`){
           if(!chosenProduct.includes(Items.all[x])){
-                chosenProduct.push(Items.all[x]);                
-                
+                chosenProduct.push(Items.all[x]);                 
                 total = total + Items.all[x].price;
                 updates(); 
-                console.log(total);
-                
-               
-                
+                console.log(total);  
             }
         }
     }

@@ -2,6 +2,7 @@
 var conResult = document.getElementById('containerOfResult');
 
 function runderResult (){
+    
 
     for (var j = 0; j < chosenProduct.length; j++) {
         var product = document.createElement('div');
