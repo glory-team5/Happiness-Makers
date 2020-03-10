@@ -1,7 +1,7 @@
 var Names = ['Ahmed', 'Baraa', 'Bashar', 'Esraa', 'Majd', 'Osama', 'Tasneem', 'Razan', 'Reham', 'Samer', 'Leen', 'Shihab'];
-var Price = ['10$', '15$', '20$', '12$', '8$', '17$', '13$', '18$', '25$', '30$', '22$', '7$'];
+var Price = [10, 15, 20, 12, 8, 17, 13, 18, 25, 30, 22, 7];
 var chosenProduct = [];
-
+total = 0;
 function Items(name, price) {
     this.name = name;
     this.price = price;
@@ -26,17 +26,21 @@ function render() {
         product.appendChild(image);
         image.setAttribute('src', Items.all[j].imagePath);
         image.setAttribute('alt', Items.all[j].name);
-        image.setAttribute('id', Items.all[j].name);
         var kidsName = document.createElement('p');
         product.appendChild(kidsName);
         kidsName.textContent =`Done by: ${Items.all[j].name}.`;
         var productPrice = document.createElement('p');
         product.appendChild(productPrice);
         productPrice.textContent =`Price: ${Items.all[j].price}`;
+        var addToCart = document.createElement('button');
+        product.appendChild(addToCart);
+        addToCart.textContent =`Add To Cart`;
+        addToCart.setAttribute('id', Items.all[j].name);
 
     }
 }
 render();
+var total;
 
 var container = document.getElementById('container');
 
@@ -44,17 +48,21 @@ container.addEventListener('click' , choseProduct);
 
 function choseProduct (event) {
 if (event.target.id !== 'container' ){
-    console.log('wtt');
+    
     
 
     for (var x = 0 ; x < Names.length ; x++ ) {
 
         if(event.target.id == `${Items.all[x].name}`){
-
           if(!chosenProduct.includes(Items.all[x])){
-
-                chosenProduct.push(Items.all[x]);
-                updates();     
+                chosenProduct.push(Items.all[x]);                
+                
+                total = total + Items.all[x].price;
+                updates(); 
+                console.log(total);
+                
+               
+                
             }
         }
     }
@@ -64,5 +72,9 @@ if (event.target.id !== 'container' ){
 function updates (){
     var localProducts = JSON.stringify(chosenProduct);
     localStorage.setItem('localchosenProducts',localProducts);
+    var totalOfproducts = JSON.stringify(total);
+    localStorage.setItem('total',totalOfproducts);
 }
+
+
 
