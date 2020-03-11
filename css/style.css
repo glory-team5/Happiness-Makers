@@ -3,6 +3,7 @@
 } */
 body{
     background-color: rgb(255, 219, 243);
+    z-index: 1;
 }
 header{
     height: 400px;
@@ -27,10 +28,11 @@ header h1{
     font-size: 43px;
     padding-top: 8%;
     padding-right: 31%;
+    z-index: 3;
 }
 nav{
     background-color: rgb(65, 22, 50);
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100%;
     position: sticky;
     top: 0;
