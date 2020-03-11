@@ -30,10 +30,10 @@ header h1{
 }
 nav{
     background-color: rgb(65, 22, 50);
-    /* overflow: hidden;
+    overflow: hidden;
     width: 100%;
-    position: fixed; */
-    /* top: 0; */
+    position: sticky;
+    top: 0;
 }
 nav ul{
     text-align: center;
