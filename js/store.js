@@ -1,5 +1,5 @@
 var Names = ['Ahmed', 'Baraa', 'Bashar', 'Esraa', 'Majd', 'Osama', 'Tasneem', 'Razan', 'Reham', 'Samer', 'Leen', 'Shihab'];
-var Price = [10, 15, 7, 20, 12, 25, 8, 17, 30, 22, 27, 16];
+var Price = [10, 15, 7, 20, 35, 25, 8, 17, 30, 22, 27, 16];
 var chosenProduct = [];
 total = 0;
 function Items(name, price) {

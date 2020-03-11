@@ -34,6 +34,8 @@ footer{
     font-size: 40px;
     margin: 5px auto;
     color: rgb(63, 26, 51);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
     
 } 
 #containerOfResult div button{
@@ -50,6 +52,10 @@ footer{
     margin: 50px auto;
     text-align: center;
     padding-top: 31px;
+    font-weight: 900;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 a{
     text-decoration: none;
@@ -60,8 +66,11 @@ a button{
     position: relative;
     bottom: 15px;
     margin: 0px auto;
-    font-size: 30px;
+    font-size: 40px;
     padding: 7px;
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(65, 22, 50);
     
 }
 a button:hover{

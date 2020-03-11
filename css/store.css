@@ -48,19 +48,22 @@ footer{
 #container div p{
     /* background-color: rgb(70, 47, 62); */
     color: rgb(63, 26, 51);
-    font-size: 40px;
+    font-size:40px;
     margin: 5px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
 
 } 
 #container div button{
     font-size: 30px;
     padding: 10px;
-    color: #000;
+    color: rgb(136, 62, 110);
     background-color: lavender;
     /* box-shadow: 5px 5px 5px 5px rgb(122, 82, 108); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #container div button:hover{
-  background-color: rgb(122, 82, 108);
+  background-color: rgb(207, 154, 189);
   opacity: 0.8;
   transition: 0.3s;
   display: inline-block;

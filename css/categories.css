@@ -18,12 +18,18 @@ footer{
     font-size: 25px;
     font-weight: 600;
     letter-spacing: 1px;
+    color: rgb(65, 22, 50);
+    background-color: rgb(197, 180, 191);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
 }
+
 .containerOfKids section img{
     height: 265px;
     width: 335px;
-    border: solid 10px rgb(220, 194, 233);
-    border-radius: 3%;
+    border: solid 5px rgb(65, 22, 50);
+    border-radius: 10%;
 }
 .containerOfKids section button{
     font-size: 30px;
@@ -34,8 +40,9 @@ button{
     height: 100%;
     font-size: 30px;
     font-family: 'Lato', sans-serif;
-    color: #29274C;
-    box-shadow: 5px 5px 5px 5px rgb(122, 82, 108);
+    color: rgb(53, 23, 44);
+    box-shadow: 5px 5px rgb(122, 82, 108);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
 	
 }
 button {

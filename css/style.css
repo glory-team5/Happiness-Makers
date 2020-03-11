@@ -16,17 +16,25 @@ header{
     background-size: cover;
     height: 400px;
     background-repeat: no-repeat;
-    opacity: .7;
+    opacity: .75;
 }
 
-header h1{
+/* header h1{
     font-size: 40px;
     color:#29274C;
     text-align: center;
     font-weight: bold;
-    font-size: 43px;
+    font-size: 50px;
     padding-top: 8%;
     padding-right: 31%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 1000;
+} */
+header img{
+  margin-top:0;
+    padding-left:37%;
 }
 nav{
     background-color: rgb(65, 22, 50);
@@ -47,6 +55,10 @@ nav ul li a{
     text-decoration: none;
     color: #E6BCCD;
     font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Source Serif Pro', serif;
 }
 nav ul li a:hover{
     color: #29274C;
@@ -67,6 +79,10 @@ nav ul .dropdown a{
     text-decoration: none;
     color: #E6BCCD;
     font-weight: bold;
+    font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Source Serif Pro', serif;
 }
 
 /* ///////////////////////////////////////////// */
@@ -183,9 +199,10 @@ footer ul li a:hover{
 footer p{
     text-align: center;
     padding: 15px;
-    font-size: 16px;
+    font-size: 20px;
     color: #E6BCCD;
     font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 img{
     width: 200px;
