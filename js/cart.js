@@ -24,6 +24,7 @@ function runderResult (){
     }
     var totalOfProducts = document.createElement('span');
     conResult.appendChild(totalOfProducts);
+    totalOfProducts.setAttribute('id','total')
     totalOfProducts.textContent =`Total: ${total} $`;
 
 
