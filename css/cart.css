@@ -76,4 +76,8 @@ a button{
 a button:hover{
     background-color: rgb(122, 82, 108);
 }
-
+#total{
+    color:rgb(122, 82, 108) ;
+    font-family: monospace;
+    font-weight: 800;
+}
