@@ -57,14 +57,25 @@
                 <label for="password">Password:</label>
                 <input type="password" id="password"><br>
                 <label for="Field">Your Favourite Field:</label>
-                <input type="text" id="Field" placeholder="Sport/Music/Education/Art"><br>
+                <input type="text" id="Field" placeholder="Sport / Music / Education / Art"><br>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Bio"></textarea><br>
-                
-                <input id="submit" type="submit" value="Join">
-                <input id="reset" type="reset">
+                <div class="box">
+                    <a class="button"  onclick="clickJoin();" href="#popup1" value="Join">Join</a>
+                </div>
+                <!-- <input onclick="clickJoin();" id="submit" type="submit" value="Join"> -->
             </fieldset>
         </form>
     </div>
+
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2 id = "messageHeader"></h2>
+            <a id="close" href="#">&times;</a>
+            <div id="content">
+            </div>
+        </div>
+    </div>
+
     </main>
     <footer>
         <!-- social media -->
@@ -79,7 +90,7 @@
         </div>
         <p> &copy Copyright are reserved for Happiness Makers</p>
     </footer>
-
+<script src="../js/join.js"></script>
 </body>
 
 </html>
