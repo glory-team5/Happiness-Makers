@@ -42,3 +42,8 @@ function getResult (){
 
 }
 getResult();
+
+
+function clickButton() {
+    alert("Thank you for your interest in our products.")
+}
