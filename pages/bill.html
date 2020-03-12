@@ -61,20 +61,32 @@
                 <input type="number" id="code"><br>
                 <hr>
                 <label for="">Choose your gift type</label><br>
-                <button>Monthly</button>
-                <button>One time</button>
+                <button class="duration">Monthly</button>
+                <button class="duration">One time</button>
                 <hr>
                 <label for="">Choose your gift amount</label><br>
-                <button>15$</button>
-                <button>25$</button>
-                <button>35$</button>
-                <button>50$</button>
-                <button>75$</button>
-                <button>100$</button><br><br>
-                <input id="submit" type="submit" value="Submit">
-                <input id="reset" type="reset">
+                <button class="mony">15$</button>
+                <button class="mony">25$</button>
+                <button class="mony">35$</button>
+                <button class="mony">50$</button>
+                <button class="mony">75$</button>
+                <button class="mony">100$</button><br><br>
+                <!-- <input id="submit" type="submit" value="Submit"> -->
+                <div class="box">
+                    <a class="button" onclick="clickButton();" href="#popup1">Submit</a>
+                </div>
             </fieldset>
         </form>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2 id = "messageHeader"></h2>
+                <a id="close" href="#">&times;</a>
+                <div id="content">
+                </div>
+            </div>
+        </div>
+
     </main>
     <footer>
           <!-- social media -->
@@ -89,7 +101,7 @@
         </div>
         <p> &copy Copyright are reserved for Happiness Makers</p>
     </footer>
-
+<script src="../js/bill.js"></script>
 </body>
 
 </html>
