@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,31 +15,32 @@
     <header>
         <!-- title -->
         <div id="titleheader">
-               
-            <img src="../img/important-img/logo-color1.png" alt=""> 
-              </div>
+
+            <img src="../img/important-img/logo-color1.png" alt="">
+        </div>
 
     </header>
-    
-        <!-- nav -->
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a><span></span><span></span><span></span><span></span></li>
-                <span class="dropdown">
-                    <a class="CategorieDropdown">Categories</a>
-                    <div class="dropdownContent">
-                      <a href="../pages/sport.html">Sports</a>
-                      <a href="../pages/music.html">Music</a><span></span><span></span><span></span><span></span>
-                      <a href="../pages/educational.html">Intelligence</a><span></span><span></span><span></span><span></span>
-                    </div>
-                </span>
-                <li><a href="../pages/Store.html">Store</a><span></span><span></span><span></span><span></span></li>
-                <li><a href="../pages/Join-Us.html">JoinUs</a><span></span><span></span><span></span><span></span></li>
-                <li><a href="../pages/FeedBack.html">Feedback</a><span></span><span></span><span></span><span></span></li>
-                <li><a href="../pages/About-Us.html">AboutUs</a><span></span><span></span><span></span><span></span></li>
-                
-            </ul>
-        </nav>
+
+    <!-- nav -->
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a><span></span><span></span><span></span><span></span></li>
+            <span class="dropdown">
+                <a class="CategorieDropdown">Categories</a>
+                <div class="dropdownContent">
+                    <a href="../pages/sport.html">Sports</a>
+                    <a href="../pages/music.html">Music</a><span></span><span></span><span></span><span></span>
+                    <a
+                        href="../pages/educational.html">Intelligence</a><span></span><span></span><span></span><span></span>
+                </div>
+            </span>
+            <li><a href="../pages/Store.html">Store</a><span></span><span></span><span></span><span></span></li>
+            <li><a href="../pages/Join-Us.html">JoinUs</a><span></span><span></span><span></span><span></span></li>
+            <li><a href="../pages/FeedBack.html">Feedback</a><span></span><span></span><span></span><span></span></li>
+            <li><a href="../pages/About-Us.html">AboutUs</a><span></span><span></span><span></span><span></span></li>
+
+        </ul>
+    </nav>
     <main>
         <form id="feedback">
             <fieldset>
@@ -49,28 +51,41 @@
                 <input type="email" id="email"><br>
                 <label for="subject">Subject:</label>
                 <input type="text" id="subject"><br>
-                
+
                 <textarea name="" id="" cols="30" rows="10" placeholder="Enter your feedback"></textarea><br>
-                
-                <input id="submit" type="submit" value="Send">
-                <input id="reset" type="reset">
+                <div class="box">
+                    <a class="button" href="#popup1">Send</a>
+                </div>
             </fieldset>
         </form>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <a id="close" href="#">&times;</a>
+                <div id="content">
+                    Thank you for your opinion, we will review your comments. <br><br>
+                    Your opinions help us to improve our site.
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <!-- social media -->
         <div>
             <ul>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><img src="../img/homepage/fbl.png" alt="fbl"></a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/home"><img src="../img/homepage/twit-logo.png" alt="twit-logo"></a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/"><img src="../img/homepage/yt-logo.png" alt="youtube"></a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/"><img src="../img/homepage/pat-logo.png" alt=""></a></li>
-         
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><img
+                            src="../img/homepage/fbl.png" alt="fbl"></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/home"><img
+                            src="../img/homepage/twit-logo.png" alt="twit-logo"></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/"><img
+                            src="../img/homepage/yt-logo.png" alt="youtube"></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/"><img
+                            src="../img/homepage/pat-logo.png" alt=""></a></li>
+
             </ul>
         </div>
         <p> &copy Copyright are reserved for Happiness Makers</p>
     </footer>
-
 </body>
 
 </html>
