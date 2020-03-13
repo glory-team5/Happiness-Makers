@@ -5,14 +5,16 @@ function clickJoin() {
     var userName = document.getElementById('userName').value;
     var password = document.getElementById('password').value;
     var messageHeader = document.getElementById('messageHeader');
+    var messageHeader2 = document.getElementById('messageHeader2');
     var content = document.getElementById('content');
 
     if (Email == "" || firstName == "" || lastName == "" || userName == "" || password == "") {
-        messageHeader.textContent = `Attention`;
+        messageHeader2.textContent = `Attention`;
         content.textContent = 'Please fill in the important fields';
-
     } else {
-        messageHeader.textContent = `Welcome ${firstName} ${lastName}.`;
+        messageHeader2.textContent = ` `;
+
+        messageHeader.textContent = `Welcome ${firstName} ${lastName}`;
         content.textContent = `We have sent you an e-mail to (${Email}) to activate the site, please open the link attached to the email to complete your joining our family.`;
         var close = document.getElementById('close');
         close.addEventListener('click', clickClose);
