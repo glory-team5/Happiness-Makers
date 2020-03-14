@@ -1,13 +1,44 @@
 #container{
     margin: 0px auto;
-    width: 80%;
+    width: 90%;
+    height: 80%;
     overflow: hidden;
     background-color: #C5B4BF;
+    margin-top: 73px;
 }
+
+
+#container img{
+    height:   400px;
+    width: 1000px;
+   
+    
+}
+#container h3{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    color: rgb(41, 18, 27);
+    margin-top: 20px;
+
+}
+#container ul{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    color: #29274C;
+    margin-top: 30px;
+    
+}
+
+
 #container section{
-    width: 50%;
+    width: 100%;
     float: left;
-    margin: 100px auto;
+    margin: 80px auto;
     text-align: center;
     line-height: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -17,8 +48,9 @@
    
 }
 #container section img{
-    width: 300px;
+    
     border-radius: 5%;
+    margin-top: 0;
 }
 #container section li{
     width: 270px;
